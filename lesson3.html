@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>CSS練習</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <div id="headline">
+    <h1>文字変えてみた</h1>
+    <p>まずはHTMLについて学びましょう</p>
+  </div>
+  <div class="main">
+    <h2>これは見出しです</h2>
+    <p>これは<span class="light">例</span>です</p>
+    <p>
+      <a href="https://saruwakakun.com/">
+        ホームへ
+      </a>
+      戻ります
+    </p>
+  </div>
+
+  <p class="px">pxの場合</p>
+  <p class="em">emの場合</p>
+  <p id="example1">green</p>
+  <p id="example2">#FFC778</p>
+  <p id="example3">#f89174</p>
+  <p class="center">center</p>
+  <p class="right">right</p>
+  <p class="solid">solid 2px</p>
+  <p class="dotted">dotted 2px</p>
+  <p class="dashed">dashed 2px</p>
+  <p class="double">double 2px</p>
+  <p class="px1">solid 1px</p>
+  <p class="rel1">上と左</p>
+  <p class="rel2">下と右</p>
+  <!-- <a href="https://saruwakakun.com/">サルワカヘジャンプ！</a> -->
+</body>
+</html>
+
+<style>
+  /* body {
+    color: gray;
+  } */
+  p {
+    color: orange;
+  }
+  #headline {
+    color: blue;
+  }
+  .main {
+    color: red;
+  }
+  h1, h2, .light {
+    color: green;
+  }
+  .main p span {
+    color: purple;
+  }
+  #example1 {
+    color: greenyellow;
+  }
+  #example2 {
+    color: #FFC778
+  }
+  #example3 {
+    color: #f89174
+  }
+  .center {
+    text-align: center;
+  }
+  .right {
+    text-align: right;
+  }
+  body {
+    background-color: yellow;
+  }
+  .solid {
+    border: solid 2px gray;
+  }
+  .dotted {
+    border: dotted 2px gray;
+  }
+  .dashed {
+    border: dashed 2px gray;
+  }
+  .double {
+    border: double 5px gray;
+  }
+  .px1 {
+    border: solid 1px orange;
+  }
+  .reil {
+    border-top: solid 2px #FFA07A;
+    border-left: solid 2px #FFA07A;
+  }
+  .rel2 {
+    border-bottom: solid 2px #FFA07A;
+    border-right: solid 2px #FFA07A;
+  }
+</style>

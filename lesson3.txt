@@ -1,0 +1,66 @@
+css 
+  デザインを整える
+
+書き方
+ cssファイルを作って読み込み
+ HTMLファイルにstyleタグを作って書く 一番簡単
+ htmlタグの中に書き込む
+
+body {
+  color: gray;
+  font-size: 15px
+}
+
+セレクタ{
+  プロパティ: 値
+}
+プロパティ　セレクタの指定部分 color, background
+値  プロパティに合う見た目の変化
+
+* コードの間に半角スペース、tab、改行OK
+
+書き方のコツ
+　タグで指定
+  idで指定　#の後ろに記述
+  classで指定 .の後ろに記述
+  適用先の複数指定 , 区切り
+  子孫セレクタの指定
+
+
+プロパティと値の基本
+
+文字の大きさ
+font-size
+  px: 縦のピクセルの大きさ
+  em: 現在のフォントサイズに対する倍率
+
+文字の色
+color
+  英語表記
+  カラーコード　# + 6桁の数字
+
+文字の寄せ
+text-align
+  left 最初
+  center
+  right
+
+背景の変更
+background-color
+
+線で囲う、引く
+border
+  {線の種類、太さ、色}　種類　solid(実線)　dotted(点線)  dashed(破線)　double(二重線)　
+  
+上だけ
+border-top
+下だけ
+borer-bottom
+左だけ
+border-left
+右だけ
+border-right
+
+コメントアウト
+
+/*メモ*/
