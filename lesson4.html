@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>CSS練習</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <div id="headline">
+    <h1>文字変えてみた</h1>
+    <p>まずはHTMLについて学びましょう</p>
+  </div>
+  <div class="main">
+    <h2>これは見出しです</h2>
+    <p>これは<span class="light">例</span>です</p>
+    <p>
+      <a href="https://saruwakakun.com/">
+        ホームへ
+      </a>
+      戻ります
+    </p>
+    <div class="parent">
+      <p>
+        これは要素です
+      </p>
+    </div>
+    <p class="example">
+      <img src="https://saruwakakun.com/wp-content/uploads/2016/11/IMG_9164.jpeg" alt="サルワカくんの顔"/>
+    </p>
+  </div>
+  <div class="grandpa">
+    <div class="pa">
+      <p>これは要素です</p>
+    </div>
+  </div>
+  <div id="test">
+    <p>子要素</p>
+    <p>
+      <img src="https://saruwakakun.com/wp-content/uploads/2016/11/IMG_9164.jpeg" alt="サルワカくんの顔"/>
+    </p>
+  </div>
+  <div id="test1">
+    <p>子要素</p>
+    <p>
+      <img src="https://saruwakakun.com/wp-content/uploads/2016/11/IMG_9164.jpeg" alt="サルワカくんの顔"/>
+    </p>
+  </div>
+
+  <!-- <a href="https://saruwakakun.com/">サルワカヘジャンプ！</a> -->
+</body>
+</html>
+<div id="test2">
+  <p>子要素</p>
+  <p>
+    <img src="https://saruwakakun.com/wp-content/uploads/2016/11/IMG_9164.jpeg" alt="サルワカくんの顔"/>
+  </p>
+  <p>親のheightが未指定</P>
+  <div id="test3">
+    <p>要素</p>
+  </div>
+  <p>親のheightが指定</P>
+    <div id="test4">
+      <p>要素</p>
+    </div>
+</div>
+
+<style>
+  p {
+    width: 100px;
+    height: 100px;
+    background: orange;
+  }
+  .parent {
+    width: 100px;
+  }
+  .example img {
+    width: 50px;
+  }
+  .pa{
+    width: 50%;
+    background: yellow;
+  }
+  .grandpa {
+    width: 200px;
+    background:silver;
+  }
+  .parent p {
+    width: 50%;
+    background: orange;
+  }
+  #test {
+    background: orange;
+  }
+  #test1 {
+    background: green;
+    height: 250px;
+  }
+  #test2 {
+    background: green;
+    height: 50px;
+  }
+  #test3 {
+    background: green;
+  }
+  #test3 p {
+    height: 50%;
+    background: orange;
+  }
+  #test4 {
+    background: green;
+  }
+  #test4 p {
+    height: 50%;
+    background: orange;
+  }
+</style>

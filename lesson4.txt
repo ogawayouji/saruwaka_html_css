@@ -1,0 +1,42 @@
+幅と高さ
+
+要素　<></>の間の塊
+<>
+  A
+  <>B</>
+</>
+Bの親要素＝A
+Aの子要素＝B
+
+width 横幅 height 高さ
+display:inline だと幅、高さは指定できない
+
+width
+  auto 初期値
+  〇〇px 
+  〇〇%
+
+width auto
+  display:block だと横幅いっぱい
+  画像の幅も決められる
+  親要素 > 子要素
+  幅を%で指定する
+
+  auto padding,  borderを含む
+  100% padding, borderを含まない
+
+  親にpxがない　ブラウザの幅に依存
+
+  min-width
+  max-width 
+
+height
+  auto 
+  〇〇px 
+  〇〇%
+
+  高さは%で指定することはない
+  親にpxがないと%が効かない
+
+  画面半分の高さにするとき
+  html, bodyタグをheight: 100%;にした後 height:50%
