@@ -1,0 +1,24 @@
+min-width, max-width
+
+min-width
+  要素がこれ以上小さくならない幅
+
+  p {
+    min-width: 100px;
+  }
+  // 要素が100pxより小さくならない
+
+  スマホなどのように画面が小さいとき、widthを50%でも100pxより小さくなれば、100pxになる
+
+max-width
+  要素がこれ以上大きくならない幅
+  p {
+    max-width: 200px;
+  }
+  // 要素が200pxより大きくならない
+
+使いどころ
+  画面からはみ出ないようにする
+
+max-height, min-height
+  考え方は同じ、widthよりは使わない
