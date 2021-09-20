@@ -1,0 +1,32 @@
+marginとpadding
+
+padding : 要素の内側の余白
+margin : 要素の外側の余白
+
+margin > border > (box) > padding > width<200> 
+実際の要素の大きさは padding + widthの大きさになる
+
+画像も同様
+
+top 上
+bottom 下
+left 左
+right 右
+
+margin 上、右、下、左
+margin 上下　左右
+
+%で指定
+
+borderは%できない
+
+marginの相殺
+  隣あう別要素のmarginは、大きいサイズが適用される
+  親要素とも競合する
+  paddingでは起こらない
+
+要素を中央配置
+  autoを利用
+  上下中央はできない
+  paddingではできない
+
