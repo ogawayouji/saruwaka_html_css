@@ -1,0 +1,37 @@
+display 
+  陽男の表示形式
+
+block p, div, ul, h1~h6の初期値
+  要素が横いっぱいに広がり、縦に並んでいく
+  幅と高さが指定できる
+  padding, margin指定できる
+  text-align, vertical-align 指定できない
+inline a, span, img の初期値
+  要素が平べったく横に並んでいく
+  幅と高さは指定できない
+  左右のpadding, marginは設定できる
+  上下marginは設定できない、paddingは重なってしまう
+  text-align, vertical-align　指定できる
+inline-block 
+  blockとinlineの中間
+  幅と高さが指定できる
+  margin, padding 指定できる
+  text-aling, vertical-align 指定できる
+none
+  非表示
+
+display: block 
+縦に並ぶ
+改行が入る
+
+display: inline 
+blockの中に入る
+幅と高さを指定できない
+上下の配置を調整できない
+
+display: inline-block 
+並び方はinline
+中身はblock
+
+改行が入らず横に並ぶ
+ものを横に並べたいときに使う

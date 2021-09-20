@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>サルワカ</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>文字変えてみた</h1>
+  <p>まずはHTMLについて学びましょう</p>
+  <a href="https://saruwakakun.com/">サルワカヘジャンプ！</a>
+  <p class="block1">block1</p>
+  <p class="block2">block2</p>
+  <p class="block3">block3</p>
+  <p class="block4">block4</p>
+  <p>これは<a href="https://saruwakakun.com/">aタグ</a>と<span>spanタグ</span>です</p>
+  <p>this is <span class="example">example</span> . </p>
+  <p>this is <span class="example2">example2</span> . </p>
+  <div id="example3">
+    <span>inline</span>
+  </div>
+  <p>これは<a class="example4" href="https://saruwakakun.com/">aタグ</a>の例文です。</p>
+  <div id="nav">
+    <ul>
+      <li>HOME</li>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul>
+  </div>
+</body>
+<p>これは残します</p>
+<p class="invisible">これを非表示にする</p>
+</html>
+
+<style>
+  .block1 {
+    background: orange;
+  }
+  .block2 {
+    background: skyblue;
+  }
+  .block3 {
+    background: orange;
+    width: 100px;
+    height: 100px;
+  }
+  .block4 {
+    background: orange;
+    padding: 10px;
+    margin: 10px;
+  }
+  a {
+    background: skyblue;
+    color: white;
+  }
+  span {
+    background: orange;
+  }
+  .example {
+    margin: 20px;
+    background: skyblue;
+  }
+  .example2 {
+    padding: 20px;
+    background: skyblue;
+  }
+  #example3 {
+    text-align: center;
+  }
+  #example3 span {
+    background: skyblue;
+  }
+  .example4 {
+    display: block;
+    background: skyblue;
+    color: white;
+  }
+  #nav ul {
+    list-style-type: none; /*箇条書きのぽっちを消す*/
+    text-align: center /*左右中央寄せは親要素に対して指定*/
+  }
+  #nav ul li {
+    display: inline-block;
+    width: 80px;
+    padding: 10px 0;
+    margin: 10px 0;
+    vertical-align: middle;
+    background: skyblue;
+    font-weight: bold;
+    color: white;
+  }
+  .invisible {
+    display: none;
+  }
+</style>
