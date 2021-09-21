@@ -1,0 +1,23 @@
+font-family
+
+p{font-family: 'Impact', sans-serif;} # pタグ内のフォントをImpactにする
+
+基本的にフォントを複数書く　OSによってフォントが変わるため
+前が優先される
+英語フォントを前に書く　日本語フォントでは英語を表現できないため
+間に半角スペースの入るフォント名は「'」ではさむ
+最後に総称フォントファミリー名を書く
+  sans-serif : ゴシック体
+  serif : 明朝体
+  monospace ：　等幅系
+  cursive ：　筆記体
+  fantasy ：　装飾系
+sans-serif serif が多い
+おすすめ
+body {
+font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'  
+}
+
+Android向けフォント
+Droid Sans 
+Roboto
