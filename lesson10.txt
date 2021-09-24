@@ -1,0 +1,24 @@
+aタグ
+リンク、画像を記述する
+  href=""
+別タブで開く　
+  target="_blank"
+
+<a href="">
+<img src="">
+</a>
+
+下線を消す
+text-decoration: none
+下線をつける
+text-decoration: underline
+
+リンクの色を変える
+  color
+
+カーソル乗せたとき
+  a:hover
+
+訪問済み
+  a:visited
+

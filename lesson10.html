@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>サルワカ</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>文字変えてみた</h1>
+  <p>まずはHTMLについて学びましょう</p>
+  <a href="https://saruwakakun.com/">サルワカヘジャンプ！</a>
+  <p>顔を踏む</p>
+  <p class="hover">
+    <a href="https://saruwakakun.com/">
+      <img src="face.png" />
+    </a>
+  </p>
+  <a class="underline" href="https://saruwakakun.com/">
+    サルワカへジャンプ
+  </a>
+  <a class="hover" href="https://saruwakakun.com/">
+    サルワカへジャンプ
+  </a>
+  <p>顔を踏む</p>
+  <p class="image">
+    <a class="image" href="https://saruwakakun.com/">
+      <img src="face.png" />
+    </a>
+  </p>
+  <a class="visit" href="https://saruwakakun.com/">
+    サルワカへジャンプ
+  </a>
+  <a class="link_button" href="">
+    Click here!
+  </a>
+</body>
+</html>
+
+<style>
+  .underline {
+    text-decoration: none;
+    color: skyblue;
+  }
+  p .hover a:hover {
+    color:skyblue;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  p .image a:hover {
+    border: solid 2px silver;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+
+  }
+  .visit:visited {
+    color: silver;
+  }
+  .link_button{
+    font-weight: bold;/*太字に*/
+    text-decoration: none;/*下線消す*/
+    background: skyblue;/*背景を水色に*/
+    color:white;/*文字を白に*/
+    padding:5px 10px;/*内側の余白*/
+    border-radius: 20px;/*角を丸くする*/
+    font-family: 'Avenir','Arial';/*フォントをいい感じに*/
+  }
+  .link_button:hover {
+    background: silver;/*背景色をシルバーに*/
+    text-decoration: none;/*下線を消す*/
+  }
+  .link_button:visited {
+    color: gray;/*文字をグレイに*/
+  }
+</style>
